@@ -5,6 +5,7 @@ const y: number = 15;
 
 const ar: number[] = [1,8,88,8];
 const ar1: any[] = [8,"5"];
+const ar1_1: (number | string)[] = ["test",16,18]; 
 
 const ar2: Array<string> = ["sad","qeq"];
 const ar3: string[] = ["sad","qeq"];
@@ -16,7 +17,6 @@ const ar4: string[][] = [
 const ar5: readonly [string,number,number] = ["test", 5, 5 ];
 
 
-ar5.push("by");
 
 
 function ff( n1: number, n2:number ) : void {
